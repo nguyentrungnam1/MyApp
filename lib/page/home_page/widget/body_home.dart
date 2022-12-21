@@ -17,10 +17,8 @@ class BodyHomePage extends StatelessWidget {
       child: Column(
         children: [
           Container(
-            // height: 50,
             margin: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
             padding: const EdgeInsets.symmetric(horizontal: 15),
-            // padding: EdgeInsets.symmetric(horizontal: 15),
             decoration: BoxDecoration(
                 color: Colors.white, borderRadius: BorderRadius.circular(50)),
             child: Row(

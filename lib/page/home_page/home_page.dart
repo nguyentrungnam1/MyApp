@@ -5,9 +5,7 @@ import 'package:my_app/page/home_page/widget/app_bar_home.dart';
 import 'package:my_app/page/home_page/widget/body_home.dart';
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
-
-  final String title;
+  const MyHomePage({Key? key}) : super(key: key);
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();

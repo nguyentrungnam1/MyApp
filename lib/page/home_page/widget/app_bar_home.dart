@@ -37,6 +37,7 @@ class _AppBarHomeState extends State<AppBarHome> {
           InkWell(
             onTap: () {
               print("navigation to cart screen");
+              Navigator.pushNamed(context, "cartPage");
             },
             child: Badge(
               badgeContent: const Text("3"),
